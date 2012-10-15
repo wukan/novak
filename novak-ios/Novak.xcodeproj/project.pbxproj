@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CFED53F162C9A9C00CEF2D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFED53E162C9A9C00CEF2D0 /* UIKit.framework */; };
+		6CFED541162C9A9C00CEF2D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFED540162C9A9C00CEF2D0 /* Foundation.framework */; };
+		6CFED543162C9A9C00CEF2D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFED542162C9A9C00CEF2D0 /* CoreGraphics.framework */; };
+		6CFED549162C9A9C00CEF2D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CFED547162C9A9C00CEF2D0 /* InfoPlist.strings */; };
+		6CFED54B162C9A9C00CEF2D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFED54A162C9A9C00CEF2D0 /* main.m */; };
+		6CFED54F162C9A9C00CEF2D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFED54E162C9A9C00CEF2D0 /* AppDelegate.m */; };
+		6CFED552162C9A9C00CEF2D0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CFED550162C9A9C00CEF2D0 /* MainStoryboard.storyboard */; };
+		6CFED555162C9A9C00CEF2D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFED554162C9A9C00CEF2D0 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6CFED53A162C9A9C00CEF2D0 /* Novak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Novak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CFED53E162C9A9C00CEF2D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6CFED540162C9A9C00CEF2D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6CFED542162C9A9C00CEF2D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6CFED546162C9A9C00CEF2D0 /* Novak-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Novak-Info.plist"; sourceTree = "<group>"; };
+		6CFED548162C9A9C00CEF2D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6CFED54A162C9A9C00CEF2D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CFED54C162C9A9C00CEF2D0 /* Novak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Novak-Prefix.pch"; sourceTree = "<group>"; };
+		6CFED54D162C9A9C00CEF2D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CFED54E162C9A9C00CEF2D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CFED551162C9A9C00CEF2D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6CFED553162C9A9C00CEF2D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6CFED554162C9A9C00CEF2D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CFED537162C9A9C00CEF2D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFED53F162C9A9C00CEF2D0 /* UIKit.framework in Frameworks */,
+				6CFED541162C9A9C00CEF2D0 /* Foundation.framework in Frameworks */,
+				6CFED543162C9A9C00CEF2D0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CFED52F162C9A9C00CEF2D0 = {
+			isa = PBXGroup;
+			children = (
+				6CFED544162C9A9C00CEF2D0 /* Novak */,
+				6CFED53D162C9A9C00CEF2D0 /* Frameworks */,
+				6CFED53B162C9A9C00CEF2D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CFED53B162C9A9C00CEF2D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CFED53A162C9A9C00CEF2D0 /* Novak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CFED53D162C9A9C00CEF2D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CFED53E162C9A9C00CEF2D0 /* UIKit.framework */,
+				6CFED540162C9A9C00CEF2D0 /* Foundation.framework */,
+				6CFED542162C9A9C00CEF2D0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CFED544162C9A9C00CEF2D0 /* Novak */ = {
+			isa = PBXGroup;
+			children = (
+				6CFED54D162C9A9C00CEF2D0 /* AppDelegate.h */,
+				6CFED54E162C9A9C00CEF2D0 /* AppDelegate.m */,
+				6CFED550162C9A9C00CEF2D0 /* MainStoryboard.storyboard */,
+				6CFED553162C9A9C00CEF2D0 /* ViewController.h */,
+				6CFED554162C9A9C00CEF2D0 /* ViewController.m */,
+				6CFED545162C9A9C00CEF2D0 /* Supporting Files */,
+			);
+			path = Novak;
+			sourceTree = "<group>";
+		};
+		6CFED545162C9A9C00CEF2D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CFED546162C9A9C00CEF2D0 /* Novak-Info.plist */,
+				6CFED547162C9A9C00CEF2D0 /* InfoPlist.strings */,
+				6CFED54A162C9A9C00CEF2D0 /* main.m */,
+				6CFED54C162C9A9C00CEF2D0 /* Novak-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CFED539162C9A9C00CEF2D0 /* Novak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CFED558162C9A9C00CEF2D0 /* Build configuration list for PBXNativeTarget "Novak" */;
+			buildPhases = (
+				6CFED536162C9A9C00CEF2D0 /* Sources */,
+				6CFED537162C9A9C00CEF2D0 /* Frameworks */,
+				6CFED538162C9A9C00CEF2D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Novak;
+			productName = Novak;
+			productReference = 6CFED53A162C9A9C00CEF2D0 /* Novak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CFED531162C9A9C00CEF2D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Kan Wu";
+			};
+			buildConfigurationList = 6CFED534162C9A9C00CEF2D0 /* Build configuration list for PBXProject "Novak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6CFED52F162C9A9C00CEF2D0;
+			productRefGroup = 6CFED53B162C9A9C00CEF2D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CFED539162C9A9C00CEF2D0 /* Novak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CFED538162C9A9C00CEF2D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFED549162C9A9C00CEF2D0 /* InfoPlist.strings in Resources */,
+				6CFED552162C9A9C00CEF2D0 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CFED536162C9A9C00CEF2D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFED54B162C9A9C00CEF2D0 /* main.m in Sources */,
+				6CFED54F162C9A9C00CEF2D0 /* AppDelegate.m in Sources */,
+				6CFED555162C9A9C00CEF2D0 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CFED547162C9A9C00CEF2D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CFED548162C9A9C00CEF2D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6CFED550162C9A9C00CEF2D0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CFED551162C9A9C00CEF2D0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CFED556162C9A9C00CEF2D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6CFED557162C9A9C00CEF2D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CFED559162C9A9C00CEF2D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Novak/Novak-Prefix.pch";
+				INFOPLIST_FILE = "Novak/Novak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6CFED55A162C9A9C00CEF2D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Novak/Novak-Prefix.pch";
+				INFOPLIST_FILE = "Novak/Novak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CFED534162C9A9C00CEF2D0 /* Build configuration list for PBXProject "Novak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CFED556162C9A9C00CEF2D0 /* Debug */,
+				6CFED557162C9A9C00CEF2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CFED558162C9A9C00CEF2D0 /* Build configuration list for PBXNativeTarget "Novak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CFED559162C9A9C00CEF2D0 /* Debug */,
+				6CFED55A162C9A9C00CEF2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CFED531162C9A9C00CEF2D0 /* Project object */;
+}
