@@ -15,15 +15,13 @@
       var bounds = new google.maps.LatLngBounds();
       var markersArray = [];
 
-      var origin1 = new google.maps.LatLng(55.930385, -3.118425);
-      var origin2 = 'Greenwich, England';
-      var destinationA = 'Stockholm, Sweden';
-      var destinationB = new google.maps.LatLng(50.087692, 14.421150);
+      var origin = new google.maps.LatLng({{ route.start_lat }}, {{ route.start_lng }});
+      var destination = new google.maps.LatLng({{ route.end_lat }}, {{ route.end_lng }});
 
       var destinationIcon = 'https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=D|FF0000|000000';
       var originIcon = 'https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=O|FFFF00|000000';
 
-      function initialize() {
+      var initialize = function() {
         var opts = {
           center: new google.maps.LatLng(55.53, 9.4),
           zoom: 10,
@@ -31,28 +29,25 @@
         };
         map = new google.maps.Map(document.getElementById('map'), opts);
         geocoder = new google.maps.Geocoder();
-      }
-
-      function calculateDistances() {
         var service = new google.maps.DistanceMatrixService();
         service.getDistanceMatrix(
           {
-            origins: [origin1, origin2],
-            destinations: [destinationA, destinationB],
+            origins: [origin],
+            destinations: [destination],
             travelMode: google.maps.TravelMode.DRIVING,
             unitSystem: google.maps.UnitSystem.METRIC,
             avoidHighways: false,
             avoidTolls: false
           }, callback);
-      }
+      };
 
-      function callback(response, status) {
+      var callback = function(response, status) {
         if (status != google.maps.DistanceMatrixStatus.OK) {
           alert('Error was: ' + status);
         } else {
           var origins = response.originAddresses;
           var destinations = response.destinationAddresses;
-          var outputDiv = document.getElementById('outputDiv');
+          var outputDiv = document.getElementById('distance');
           outputDiv.innerHTML = '';
           deleteOverlays();
 
@@ -67,7 +62,7 @@
             }
           }
         }
-      }
+      };
 
       function addMarker(location, isDestination) {
         var icon;
@@ -105,6 +100,7 @@
   <body onload="initialize()">
     <p>{{ route.message }}</p>
     <p>from {{ route.user_name }}</p>
+    <div id="distance"></div>
     <div id="map"></div>
   </body>
 </html>
